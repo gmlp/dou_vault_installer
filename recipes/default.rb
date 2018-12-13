@@ -4,7 +4,6 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-include_recipe 'poise-python'
 
 node['dou_vault_installer']['dependencies'].each do |pkg|
   package pkg do
