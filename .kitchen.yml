@@ -14,7 +14,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: centos-7.4 
+  - name: rhel-7 
     driver:
       image_id: ami-011b3ccf1bd6db744 
 
