@@ -1,4 +1,3 @@
-default['dou_vault_installer']['dependencies'] = ['curl', 'unzip']
 default['dou_vault_installer']['supervisorDir'] = '/etc/supervisor' 
 default['dou_vault_installer']['install_paths'] = [
     '/opt/vault/bin',

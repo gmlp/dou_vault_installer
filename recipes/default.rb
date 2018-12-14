@@ -5,7 +5,7 @@
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
 
-node['dou_vault_installer']['dependencies'].each do |pkg|
+['curl', 'unzip'].each do |pkg|
   package pkg do
     action :install
     retries 3
